@@ -1,11 +1,10 @@
 import poke from "../assets/poke.png";
+import "../style/nav.css";
 
 const Navbar = () => {
   return (
     <nav>
-      <ul>
-        <img src={poke} alt="poke logo" width={100} />
-      </ul>
+      <img src={poke} alt="poke logo" width={70} />
     </nav>
   );
 };

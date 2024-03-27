@@ -4,7 +4,6 @@ const Search = () => {
   return (
     <form>
       <input type="search" />
-
       <button type="submit">O</button>
     </form>
   );
